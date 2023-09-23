@@ -1,0 +1,7 @@
+CREATE TABLE todos (
+  id SERIAL PRIMARY KEY,
+  task_name VARCHAR(255) NOT NULL,
+  due_date DATE NOT NULL,
+  priority VARCHAR(255) NOT NULL,
+  status VARCHAR(255) NOT NULL
+);
